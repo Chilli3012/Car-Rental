@@ -1,0 +1,41 @@
+.card{
+    height: 100%;
+}
+.card-body-styling{
+    background-color: #36acb3;
+    text-align: center;
+}
+.home-page-part1{
+    /* margin-top: 20px; */
+    height: 100%;
+    height: 100vh;
+    /* size: ; */
+    background-color: #c8ddf0;
+    background-image: url("Images/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top:14% ;
+    text-align: center;
+}
+.home-page-part1-logo{
+    width: 180px;
+    height: 180px;
+}
+.home-page-slogan{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+.slider-heading{
+    margin-bottom: 2%;
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.slider-show-home-page{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+

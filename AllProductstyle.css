@@ -1,0 +1,25 @@
+.card{
+    width: 95%;
+    height: 100%;
+    margin-bottom: 10%;
+    padding: auto auto;
+}
+.card-body{
+    background-color: rgb(235, 249, 251);
+    text-align: center;
+    border: black;
+    /* border-width: 21px; */
+}
+.all-section{
+    background-color: #c8ddf0;
+}
+.image-styling{
+    height: 40%;
+}
+.section-title{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}

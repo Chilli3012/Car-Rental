@@ -1,0 +1,44 @@
+body{
+    /* width: 100vw; */
+    overflow-x: hidden;
+}
+.myform{
+    background-image: linear-gradient(#1C2C3E,black);
+    height: 70%;
+}
+.login-title{
+    padding-top: 12%;
+    margin-bottom: 5%;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #36acb3;
+}
+.email-title,.name-title,.password-title,.employ-title,.repassword-title{
+    margin-top: 1%;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-family:sans-serif ;
+    font-weight: bolder;
+    color: #36acb3;
+}
+
+#email,#password,#name,#emid,#re_password{
+    margin-left: 3%;
+    padding:5px 10px;
+    border-radius: 15px;
+    border: black;
+}
+
+.register-btn{
+    border-color: black;
+    background-color: #36acb3;
+    width: 25%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register-btn:hover{
+    background-color: #287579;
+    border-color: black;
+}

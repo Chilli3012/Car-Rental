@@ -1,0 +1,234 @@
+
+
+
+
+/* for hover state use #205E61 */
+
+@media(max-width:768px){
+    .header-except-logo{
+        flex-direction: column;
+    }
+    .cart-logo{
+        width: 2rem;
+        /* background-color: white !important; */
+    }   
+    .a-text-color1{
+        color: black;
+    }
+    .brand-logo{
+        margin-left: 5%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    
+    .cart-logo1{
+        margin:15rem;
+        /* margin-right: auto; */
+        /* margin */
+
+    }
+    a:active{
+        color: #c0c0c0;
+        border-color: #c0c0c0;
+    }
+    .dropdownbox-header:active{
+        border: none;
+        border-color: #c0c0c0;
+        color: #c0c0c0;
+    }
+    .header-part1{
+        padding-bottom: 3px;
+        background-color: black;
+    }
+    .header-part2{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-color: #eab002;
+        box-shadow: 0 5px 10px rgb(0 0 0 / 0.3);
+    
+    }
+    .header-loggedin-button{
+        margin-right: 10px;
+        margin-left: 78%;
+    }
+    .header-login-button1{
+        background-color: rgb(161, 161, 161);
+        color: black;
+        border: black;
+    }
+    .header-login-button1:hover,.header-register-button1:hover{
+        background-color: #03383b;
+    }
+    .header-register-button1{
+        background-color: rgb(161, 161, 161);
+        display: inline;
+        color: black;
+        border: black;
+    }
+    .home-button{
+        margin: auto;
+    }
+    .header-except-logo{
+        width: 100%;
+    }
+    .menu{
+        justify-content: space-around;
+    }
+    .fa-shopping-cart{
+        color: #3F979B;
+        margin-top: 1rem;
+        /* margin-left: 50%; */
+    }
+   
+}
+
+@media(min-width:768px){
+    .cart-logo{
+        width: 2rem;
+        /* background-color: white !important; */
+    }   
+    .a-text-color1{
+        color: black;
+    }
+    .brand-logo{
+        margin-left: 5%;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+    a:active{
+        color: #939393;
+        border-color: #939393;
+    }
+    .dropdownbox-header:active{
+        border: none;
+        border-color: #939393;
+        color: #939393;
+    }
+    .header-part1{
+        padding-bottom: 3px;
+        background-color: black;
+    }
+    .header-part2{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-color: #eab002;
+        box-shadow: 0 5px 10px rgb(0 0 0 / 0.3);
+    
+    }
+    .header-login-button{
+        margin-right: 10px;
+        margin-left: 50%;
+    }
+    .header-loggedin-button{
+        margin-right: 10px;
+        margin-left: 75%;
+    }
+    .header-login-button1{
+        background-color: rgb(161, 161, 161);
+        color: black;
+        border: black;
+    }
+    .header-login-button1:hover,.header-register-button1:hover{
+        background-color: #03383b;
+    }
+    .header-register-button1{
+        background-color: rgb(161, 161, 161);
+        display: inline;
+        color: black;
+        border: black;
+    }
+    .home-button{
+        margin: auto;
+    }
+    .header-except-logo{
+        width: 100%;
+    }
+    .menu{
+        justify-content: center;
+    }
+    .fa-shopping-cart{
+        color: #3F979B;
+        margin-left: 2rem;
+    }
+   
+}
+
+@media(min-width:992px){
+    .a-text-color1{
+        color: black;
+    }
+    .brand-logo{
+        margin-left: 5%;
+        width: 75px;
+        height: 65px;
+        border-radius: 50%;
+    }
+    a:active{
+        color: #c0c0c0;
+        border-color: #c0c0c0;
+    }
+    .dropdownbox-header:active{
+        border: none;
+        border-color: #c0c0c0;
+        color: #c0c0c0;
+    }
+    .header-part1{
+        padding-bottom: 3px;
+        background-color: black;
+
+        /* height: 40px; */
+    }
+    .header-part2{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-color: #eab002;
+        box-shadow: 0 5px 10px rgb(0 0 0 / 0.3);
+    
+    }
+    .header-login-button{
+        margin-right: 10px;
+        margin-left: 50%;
+    }
+    .header-loggedin-button{
+        margin-right: 10px;
+        margin-left: 85%;
+    }
+    .header-login-button1{
+        background-color: rgb(161, 161, 161);
+    }
+    .header-login-button1:hover,.header-register-button1:hover{
+        background-color: #03383b;
+    }
+    .header-register-button1{
+        background-color: rgb(161, 161, 161);
+        display: inline;
+        color: black;
+        border: black;
+    }
+    .home-button{
+        margin: auto;
+        color: black;
+    }
+    .header-except-logo{
+        width: 100%;
+    }
+    .menu{
+        justify-content: center;
+    }
+    .fa-shopping-cart{
+        color: #1bc9ac;
+        margin-left: 2rem;
+    }
+    .a-text-color1:hover{
+        color:#03383b;
+    }
+   
+}
+
+@media(min-width:1130px){
+    .header-login-button1{
+        margin-left: 15rem;
+    }
+}

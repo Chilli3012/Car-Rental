@@ -1,0 +1,42 @@
+body{
+    overflow-x: hidden;
+}
+.myform{
+    /* background-color: #c8ddf0; */
+    background-image: linear-gradient(#1C2C3E,black);
+    height: 700px;
+}
+.login-title{
+    padding-top: 12%;
+    margin-bottom: 8%;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: #36acb3;
+    /* color:#eab002; */
+}
+.email-title,.password-title{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 1.1rem;
+    font-family:sans-serif ;
+    color: #36acb3;
+    /* color: #eab002; */
+}
+.login-btn{
+    background-color: #36acb3;
+    /* background-color: #eab002; */
+    width: 20%;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+}
+.login-btn:hover{
+    background-color: #287579;
+    border-color: black;
+}
+#email,#password{
+    padding: 5px 10px;
+    border-radius: 17px;
+    border: black;
+}
